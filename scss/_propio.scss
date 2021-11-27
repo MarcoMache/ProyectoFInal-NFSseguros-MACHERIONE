@@ -1,0 +1,261 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+//INDEX
+.logo {
+  height: 5.5rem;
+  width: 10rem;
+}
+.mainI {
+  height: 100vh;
+  width: auto;
+  background-image: url(../imagenes/portada-min.jpg);
+  background-size: cover;
+}
+.colorNav {
+  color: $purple-600;
+}
+//PORTADA
+.div-caja-banner {
+  width: 100%;
+  height: 55vh;
+}
+
+.div-caja-banner__div-banner {
+  align-items: center;
+  display: flex;
+  background-color: black;
+  position: relative;
+  width: 100%;
+  height: 6.2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.div-caja-logo {
+  display: flex;
+  height: 45vh;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.div-caja-logo__logo-portada {
+  width: 15rem;
+}
+
+.div-caja-logo__logo-portada__texto-banner {
+  font-size: 2rem;
+  color: white;
+  padding-top: 1rem;
+}
+//FOOTER
+.caja-footer {
+  display: flex;
+  width: 100%;
+  height: 7vh;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja-footer__texto-footer {
+  color: white;
+  font-size: 1.5 rem;
+  text-align: center;
+}
+//QUIENES SOMOS
+.main-qsomos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../imagenes/equipo-min.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.caja-titulo-qsomos {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+.caja-titulo-qsomos__titulo {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+.caja-parrafo-qsomos {
+  width: 100%;
+  min-height: 25vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.caja-parrafo-qsomos__parrafo {
+  font-size: 1.6rem;
+  color: white;
+  text-shadow: 2px 2px 6px #000000;
+}
+//SEGUROS
+.main-seguros {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caja-seguros-titulo {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.caja-seguros-titulo__titulo {
+  font: 1rem;
+  color: black;
+  text-shadow: 2px 2px 6px #000000;
+  padding-top: 1rem;
+}
+
+.caja-seguros-uno {
+  float: right;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../imagenes/auto-min.jpg);
+  background-size: cover;
+}
+
+.caja-seguro-uno__auto {
+  width: 100%;
+  height: 100%;
+}
+
+.caja-seguros-dos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../imagenes/casa-min.jpg);
+  background-size: cover;
+}
+.caja-seguro-dos__casa {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caja-seguros-tres {
+  float: left;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../imagenes/bici-min.jpg);
+  background-size: cover;
+}
+.caja-seguro-tres__bici {
+  width: 100%;
+  height: 100%;
+}
+
+.caja-seguro-cuatro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../imagenes/vida-min.jpg);
+  background-size: cover;
+}
+.caja-seguro-cuatro__vida {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-position: right;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.titulo-img {
+  width: 100%;
+  height: 7vh;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 6px #000000;
+}
+.titulo-img:hover{
+  font-size: 2.5rem;
+  transition: 1s;
+}
+.parrafo-img {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 6px #000000;
+  font-size: 1rem;
+}
+.parrafo-img:hover{
+  font-size: 1.5rem;
+  transition: 1s;
+}
+.caja-item {
+  padding: 1.5rem;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+}
+//COTIZACIONES
+.main-cotizaciones {
+  width: 100%;
+  height: 100vh;
+  
+}
+.layout-cotizaciones {
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../imagenes/cotizarmain-min.jpg);
+  padding-top: 10rem;
+  background-size: cover;
+}
+.main-contacto{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url(../imagenes/contacto-min.jpg);
+  background-size: cover;
+  
+}
+.contacto{
+  align-items: center;
+  justify-self: center;
+  min-width: 100%;
+  height: 100%;
+}
+.contacto__caja-contacto{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulo-contacto{
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ text-shadow: 2px 2px 6px #000000;
+}
+.boton-enviar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.7rem;
+}
+.label-t{
+  width: 25%;
+  text-shadow: 2px 2px 6px #000000;
+}
+.caja-input{
+  margin-top: 0.5rem;
+}
