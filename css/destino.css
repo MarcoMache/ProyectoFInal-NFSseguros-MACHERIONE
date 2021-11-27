@@ -7882,8 +7882,8 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding-top: 3rem;
-  margin-bottom: 1.5rem; }
+  padding-top: 4rem;
+  margin-bottom: 2.5rem; }
 
 .caja-titulo-qsomos__titulo {
   font-size: 4rem;
@@ -7995,7 +7995,7 @@ body {
 
 .main-cotizaciones {
   width: 100%;
-  height: 100vh; }
+  min-height: 70vh; }
 
 .layout-cotizaciones {
   width: 100%;
@@ -8003,7 +8003,8 @@ body {
   padding: 3rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../imagenes/cotizarmain-min.jpg);
   padding-top: 10rem;
-  background-size: cover; }
+  background-size: cover;
+  color: black; }
 
 .main-contacto {
   width: 100%;
