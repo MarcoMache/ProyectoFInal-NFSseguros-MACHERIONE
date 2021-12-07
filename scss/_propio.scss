@@ -67,7 +67,7 @@ body {
 //QUIENES SOMOS
 .main-qsomos {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../imagenes/equipo-min.jpg);
+    url(../imagenes/grupo.jpg);
   width: 100%;
   min-height: 100vh;
   background-size: cover;
@@ -98,7 +98,7 @@ body {
 }
 .caja-parrafo-qsomos__parrafo {
   font-size: 1.6rem;
-  color: white;
+  color: rgb(255, 255, 255);
   text-shadow: 2px 2px 6px #000000;
 }
 //SEGUROS
@@ -181,10 +181,6 @@ body {
   color: white;
   text-shadow: 2px 2px 6px #000000;
 }
-.titulo-img:hover{
-  font-size: 2.5rem;
-  transition: 1s;
-}
 .parrafo-img {
   width: 100%;
   height: 50%;
@@ -193,10 +189,7 @@ body {
   text-shadow: 2px 2px 6px #000000;
   font-size: 1rem;
 }
-.parrafo-img:hover{
-  font-size: 1.5rem;
-  transition: 1s;
-}
+
 .caja-item {
   padding: 1.5rem;
   width: 100%;
@@ -261,3 +254,4 @@ body {
 .caja-input{
   margin-top: 0.5rem;
 }
+
